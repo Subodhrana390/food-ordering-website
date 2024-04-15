@@ -2,7 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "", 
+<<<<<<< HEAD
   "type": "module",
+=======
+  "type":"module",
+>>>>>>> 263a9f3538ba646957670eee9a601323c32ff2eb
   "main": "./src/index.ts",
   "scripts": {
     "dev": "nodemon",
