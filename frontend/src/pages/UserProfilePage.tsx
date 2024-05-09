@@ -5,8 +5,6 @@ const UserProfilePage = () => {
   const { updateUser, isLoading: isUpdateLoading } = useUpdateMyUser();
   const { currentUser, isLoading: isGetLoading } = useGetMyUser();
 
-  console.log(currentUser);
-
   if (isGetLoading) {
     return <span>Loading... </span>;
   }
@@ -14,8 +12,6 @@ const UserProfilePage = () => {
   if (!currentUser) {
     return <span>Unable to Load user profile</span>;
   }
-
-  console.log(currentUser);
   return (
     <UserProfileForm
       currentUser={currentUser}
