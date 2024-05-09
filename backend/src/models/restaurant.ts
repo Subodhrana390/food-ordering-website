@@ -8,7 +8,7 @@ const menuItemSchema = new mongoose.Schema({
 const restaurantSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "user",
+    ref: "User",
   },
   restaurantName: { type: String, required: true },
   city: { type: String, required: true },
