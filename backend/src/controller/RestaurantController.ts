@@ -1,4 +1,4 @@
-import { Request, Response, query } from "express";
+import { Request, Response } from "express";
 import Restaurant from "../models/restaurant";
 
 const searchRestaurants = async (req: Request, res: Response) => {
